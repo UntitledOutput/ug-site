@@ -1,0 +1,47 @@
+@font-face { font-family: S2; src: url('res/s2.OTF'); } 
+@font-face { font-family: S1; src: url('res/s1.TTF'); } 
+.body {
+    background-image: url("res/thunderbg.png");
+    background-blend-mode:overlay;
+    background-color: #050505;
+    color:white;
+}
+
+[type="header"] {
+    font-family: S1;
+    text-align: center;
+}
+
+[type="body-text"] {
+    font-family: S2;
+    text-align: center;
+}
+
+.menu {
+    position: a;
+    top: 0;
+    bottom: 0;
+    padding:0px 0px 0px 0px;
+    color:white;
+    margin: 0;
+    overflow: hidden; 
+    text-align: center;
+    background-color: #050505;
+    /* background-image: url("res/thunderbg.png");
+    animation: wave 25s ease infinite;
+    background-blend-mode: overlay;
+    */
+}
+
+
+
+.menu a {
+    float: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:dotted;
+    font-size: 30px;
+    font-family: S2;
+    letter-spacing: 0px;
+}
